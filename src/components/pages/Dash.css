@@ -1,0 +1,93 @@
+.bo {
+  /* background-color: #f5f5f5 !important; */
+  background: transparent;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.Dashboard body {
+  background: linear-gradient(#192428, rgba(19, 19, 245, 0.775)) !important;
+  margin-top: 20px;
+}
+
+.Dashboard .App {
+  text-align: center;
+  margin-top: 53px;
+  background-color: #103f76 !important;
+}
+
+.das h1 {
+  background-color: #e6e7ebde;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.card-container-11 {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  
+}
+
+.card-12 {
+  width: 46%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  /* border: 1px solid #ccc; */
+  padding: 16px;
+  margin:5px;
+  border-radius: 10px;
+  background-color: #e6e7ebde !important;
+  flex-direction: row;
+
+
+  h2 {
+    margin-bottom: 10px;
+  }
+}
+
+.card-12:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.card-container-22 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.card-container-22 .card-12 {
+  width: 48%; /* Adjust width as needed */
+}
+
+/* New styles for the four cards */
+.primary-card {
+  background-color: #0077ff !important; /* Adjust color as needed */
+  
+  
+}
+
+.danger-card {
+  background-color: #e04949 !important; /* Adjust color as needed */
+}
+
+.success-card {
+  background-color: #7bda7f !important; /* Adjust color as needed */
+}
+
+.secondary-primary-card {
+  background-color: #008cff !important; /* Adjust color as needed */
+  margin-bottom: auto;
+}
+
+@media (max-width: 770px) {
+  .card-12 {
+    width: 100%;
+  }
+}
+@media (max-height: 768px) {
+  .card-12 {
+    height: 100%;
+  }
+}

@@ -1,0 +1,24 @@
+/* src/App.css */
+body {
+  margin: 0;
+  padding: 0;
+  /* background-image: url('images/bg33.jpg') !important; */
+  /* background-color: aliceblue; */
+
+  /* background-color: whitesmoke !important; */
+  /* background-color: #b6ccfe !important; */
+
+  /* background: rgb(38, 179, 207) !important;  */
+  /* background: #ffffffae !important; */
+  background-size: 100%;
+
+  /* background-repeat: no-repeat; */
+}
+#root {
+  height: 100vh;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}

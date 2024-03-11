@@ -1,0 +1,36 @@
+
+
+
+
+.card {
+    margin: 20px;
+    margin-bottom: 20px;
+    margin-top: 80px;
+    transition: 0.5s ease-in-out;
+    font-size: 15px;
+    box-shadow: 1px 2px 8px 0px rgba(0, 0, 0, 0.286); 
+
+}
+
+.card:hover{
+    cursor:pointer;
+    transform: scale(1.08);
+}
+
+
+.domain-card.bg-secondary {
+        background-color: rgb(240, 240, 239) !important;
+
+    }
+    
+
+    body {
+        background-color: linear-gradient(#8572df40, rgba(0, 0, 0, 0)) !important;
+    }
+
+
+    .modal-content {
+        margin-top: 25%;
+    }
+    
+    

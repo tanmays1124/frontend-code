@@ -1,0 +1,96 @@
+/* style.css */
+/* body {
+    font-family: sans-serif;
+    background-color: #f0f0f0;
+  } */
+  
+  .quiz-container {
+    margin-top: 25%;
+    width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    /* background: linear-gradient(to bottom, #fefdffe1, #05436d); */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    align-items: center;
+  }
+  
+  .question-container {
+    text-align: center; /* Center the question text */
+    margin-bottom: 20px;
+    /* margin-top: 30%; */
+  }
+  
+  .question {
+    margin-top:50px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .centered-container {
+    display: flex;
+    justify-content: center;
+    align-items: stretch; /* Center options horizontally */
+  }
+  
+  .options-container {
+    margin-top:20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: stretch; /* Center options vertically */
+  }
+  
+  .option-pair {
+    display: flex;
+    gap: 20px;
+    justify-content: center; /* Center individual options within pairs */
+  }
+  
+  .option {
+    width: 250px;
+    padding: 10px 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    background-color: #aedaed;
+    text-align: center;
+  }
+  
+  /* .option:hover {
+    background-color: #55aca0;
+  } */
+  
+  .option.selected {
+    background-color: #55aca0;
+    color: white;
+  }
+  
+
+
+  
+  /* Additional styling for a subtle gradient and shadow */
+  .quiz-container {
+    margin-top: 10%;
+    min-height:500px;
+    transition: min-height 0.3s; 
+    background: linear-gradient(to bottom,#fefdffe1, #05436d);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+
+  .next{
+    margin-left: 45%;
+    margin-top: 50px;
+    display: block;
+    justify-content: space-around;
+  }
+
+  .timer{
+    margin-left: 45%;
+    font-size: large;
+    color: #bb0000;
+    
+  }
